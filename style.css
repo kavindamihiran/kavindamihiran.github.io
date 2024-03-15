@@ -1,19 +1,11 @@
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 2px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
 body {
   min-height: auto;
   display: flex;
   flex-direction: column;
 }
-
+header {
+  background-color: rgb(191, 241, 243);
+}
 #navigation {
   margin: 2px;
   padding: 2%;
@@ -35,5 +27,17 @@ body {
   text-align: center;
 }
 
-#main {
+.main {
+  background-color: azure;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
