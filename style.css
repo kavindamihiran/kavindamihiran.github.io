@@ -3,9 +3,22 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 header {
+  margin: 120px;
+  padding: auto;
   background-color: rgb(191, 241, 243);
 }
+
+nav {
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 #navigation {
   margin: 2px;
   padding: 2%;
@@ -20,15 +33,27 @@ header {
   color: rgb(204, 64, 64);
 
   list-style: none;
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
 }
 
-#aboutmecss,
-#projectscss {
+#imgheader {
+  float: left;
+  width: 50px; /* Set your preferred width */
+  height: 50px; /* Set your preferred height */
+  background: #555; /* Optional background color */
+}
+
+main {
   text-align: center;
+  background-color: azure;
+  padding: 100px;
 }
 
-.main {
-  background-color: azure;
+#ascii {
+  text-align: center;
 }
 
 footer {
