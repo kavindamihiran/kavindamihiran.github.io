@@ -11,6 +11,9 @@ body {
   margin-right: 250px;
   margin-left: 250px;
 }
+#image_position:hover {
+  animation: rotate 1s infinite ease;
+}
 #imagelink a:hover {
   background-color: rgb(191, 241, 243);
 }
@@ -91,4 +94,13 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
