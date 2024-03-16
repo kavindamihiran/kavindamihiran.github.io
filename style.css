@@ -1,5 +1,6 @@
 body {
   min-height: auto;
+  background-color: azure;
   display: flex;
   flex-direction: column;
 }
@@ -9,6 +10,9 @@ header {
   margin-top: 100px;
   padding: auto;
   background-color: rgb(191, 241, 243);
+}
+#headingblock {
+  background-color: palegreen;
 }
 
 nav {
