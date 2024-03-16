@@ -9,19 +9,26 @@
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" type="image/x-icon" href="assets\img\logo.png">
+	<link rel="stylesheet" href="loadpage.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 
 <body>
 
 	<header>
+
 		<nav>
 			<ul id="navigation">
-				<li><a href="contact.html"><img src="assets/img/logo.png" alt="logo" id="imgheader"></a></li>
-				<li><a href="#">Home</a></li>
+				<li id="imagelink"><a href="contact.html"><img id="image_position" src="assets/img/logo.png" alt="logo"
+							id="imgheader"></a></li>
+				<li id="active_page"><a class="active_page" href="#">Home</a></li>
 				<li><a href="#">About Me</a></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
+
 	</header>
 
 	<section id="headingblock">
@@ -91,6 +98,8 @@
 			<p>&copy; 2024 Kavinda Mihiran</p>
 		</center>
 	</footer>
+
+	<div class="loader"><div>
 </body>
 
 </html>

@@ -4,6 +4,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+#image_position {
+  align-items: center;
+  width: 30px;
+  height: auto;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+#imagelink a:hover {
+  background-color: rgb(191, 241, 243);
+}
 
 header {
   position: sticky;
@@ -23,22 +33,33 @@ nav {
   left: auto;
   bottom: 0%;
 }
+a:hover {
+  padding: 15px;
+  background-color: lightsalmon;
+  font-size: larger;
+}
+.active_page {
+  padding: 15px;
+  background-color: chartreuse;
+}
+#active_page a:hover {
+  background-color: chartreuse;
+}
 
 #navigation {
-  margin: 2px;
-  padding: 2%;
+  margin-top: auto;
+  padding: 1.5%;
   text-align: center;
 
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-evenly;
 
   background-color: rgb(220, 255, 250);
-  color: rgb(204, 64, 64);
 
   list-style: none;
   font-size: 150%;
+  overflow: visible;
 }
 a {
   text-decoration: none;
