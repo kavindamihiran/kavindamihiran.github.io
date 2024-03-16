@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-#image_position {
+#imageid {
   align-items: center;
   width: 30px;
   height: auto;
