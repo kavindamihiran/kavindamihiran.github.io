@@ -1,0 +1,69 @@
+body {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: sticky;
+  margin-top: 100px;
+  padding: auto;
+  background-color: rgb(191, 241, 243);
+}
+
+nav {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0%;
+  left: auto;
+  bottom: 0%;
+}
+
+#navigation {
+  margin: 2px;
+  padding: 2%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+  background-color: rgb(220, 255, 250);
+  color: rgb(204, 64, 64);
+
+  list-style: none;
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+}
+
+#imgheader {
+  float: left;
+  width: 50px; /* Set your preferred width */
+  height: 50px; /* Set your preferred height */
+  background: #555; /* Optional background color */
+}
+
+main {
+  text-align: center;
+  background-color: azure;
+  padding: 100px;
+}
+
+#ascii {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
