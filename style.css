@@ -4,12 +4,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-#imageid {
+#banner-logo,#navigation-logo {
   align-items: center;
   width: 30px;
   height: auto;
-  margin-right: 250px;
-  margin-left: 250px;
   animation: rotate 1s infinite ease;
 }
 
