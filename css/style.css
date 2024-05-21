@@ -380,6 +380,11 @@ section {
     padding: 0;
 }
 
+#banner-logo,
+#navigation-logo {
+    animation: rotate 1s infinite ease;
+}
+
 #logo h2 {
     font-size: 18px;
     padding: 0;
@@ -1651,6 +1656,18 @@ blockquote {
 /*
  * Animations
  */
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 @-webkit-keyframes ball-triangle-path-ball-one {
     0% {
         -webkit-transform: translate(0, 220%);
