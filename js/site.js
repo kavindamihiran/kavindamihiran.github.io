@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 $(document).ready(function () {
 	/* Video Lightbox */
 	if (!!$.prototype.simpleLightboxVideo) {
